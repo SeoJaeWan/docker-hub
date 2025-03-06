@@ -7,3 +7,4 @@ COPY assets $path/html/assets
 COPY forms $path/html/forms
 WORKDIR $path/html
 CMD ['nginx', '-g', 'daemon off;']
+
